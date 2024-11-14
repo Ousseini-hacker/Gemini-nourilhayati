@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Chatbot | BJ_Coder</title>
+  
+  <!-- Meta Description for SEO -->
+  <meta name="description" content="Gemini Chatbot is your AI assistant for planning events, improving skills, and writing code.">
+
+  <!-- Open Graph Meta Tags for Social Media Previews -->
+  <meta property="og:title" content="Gemini Chatbot | Your AI Assistant">
+  <meta property="og:description" content="Gemini Chatbot helps with planning, web news, and coding tasks.">
+  <meta property="og:image" content="https://iili.io/2K5vHu4.md.jpg">
+  <meta property="og:url" content="https://bj-gemini-ultra.vercel.app/">
+
+  <!-- Linking Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded&display=swap">
+
+  <!-- Linking External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello, there</h1>
+    <p>How can I help you today?</p>
+
+    <!-- Suggestion List -->
+    <ul>
+      <li>
+        <h4>Tell me about React js and React native</h4>
+        <span class="icon material-symbols-rounded">draw</span>
+      </li>
+      <li>
+        <h4>Brainstorm team bonding activities</h4>
+        <span class="icon material-symbols-rounded">lightbulb</span>
+      </li>
+      <li>
+        <h4>Find the latest news on web development</h4>
+        <span class="icon material-symbols-rounded">explore</span>
+      </li>
+      <li>
+        <h4>Write JavaScript code to sum an array</h4>
+        <span class="icon material-symbols-rounded">code</span>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Chat List Container -->
+  <div class="chat-list"></div>
+
+  <!-- Typing Area -->
+  <div class="typing-area">
+    <form>
+      <div class="input-wrapper">
+        <input type="text" placeholder="Enter a prompt here" required>
+        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+      </div>
+      <div class="action-buttons">
+        <button id="theme-toggle-button" class="icon material-symbols-rounded" title="Toggle theme">light_mode</button>
+        <button id="delete-chat-button" class="icon material-symbols-rounded" title="Delete chat">delete</button>
+      </div>
+    </form>
+    <p>Created By BJ_Tricks</p>
+  </div>
+
+  <!-- Linking External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
